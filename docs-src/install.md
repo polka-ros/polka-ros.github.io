@@ -29,7 +29,7 @@ One branch per ROS 2 distro, same code on each:
 ```bash
 git clone -b humble https://github.com/Pana1v/polka.git ~/ros2_ws/src/polka
 cd ~/ros2_ws && colcon build --packages-select polka
-# add  --cmake-args -DWITH_CUDA=ON  for the GPU merge engine
+# the CUDA engine is built when nvcc is found; -DWITH_CUDA=OFF forces CPU-only
 ```
 
 ## Quick start

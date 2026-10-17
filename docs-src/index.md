@@ -74,7 +74,7 @@ Each clip is polka with a different config, run on the [TIERS multi-LiDAR datase
 
 **Deskew.** 3.3 ns per point rotation-only, 4.4 with translation: 1.5 to 7x cheaper than the deskew step of GLIM, rko_lio and LIO-SAM on the same public clouds. Method and versions in [Performance](performance.md#deskew-against-other-stacks).
 
-**CUDA.** The GPU merge engine does transform, filter, voxel and scan flatten in one pass over the points, which pays off on heavy pipelines. On a filterless merge the CPU stays competitive — there is not enough per-point work to hide the kernel dispatch and the host-to-device copy. Build with `-DWITH_CUDA=ON` and it falls back to CPU on its own. It is not faster everywhere.
+**CUDA.** The GPU merge engine does transform, filter, voxel and scan flatten in one pass over the points, which pays off on heavy pipelines. On a filterless merge the CPU stays competitive — there is not enough per-point work to hide the kernel dispatch and the host-to-device copy. The apt packages include it, and it falls back to CPU on its own. It is not faster everywhere.
 The packages from the [polka apt repository](install.md) have the GPU engine built in. Packages
 from the ROS build farm will be CPU-only: it has no CUDA toolchain.
 
