@@ -1,0 +1,34 @@
+Package: ros-jazzy-polka
+Version: 0.6.1-2noble
+Architecture: amd64
+Maintainer: "Panav Arpit Raaj" <praajarpit@gmail.com>
+Installed-Size: 3158
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcl-common1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), libeigen3-dev, libpcl-dev, ros-jazzy-diagnostic-msgs, ros-jazzy-laser-geometry, ros-jazzy-nav-msgs, ros-jazzy-pcl-conversions, ros-jazzy-point-cloud-transport, ros-jazzy-rcl-interfaces, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-rclpy, ros-jazzy-sensor-msgs, ros-jazzy-tf2-eigen, ros-jazzy-tf2-geometry-msgs, ros-jazzy-tf2-ros
+Homepage: https://github.com/Pana1v/polka
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-jazzy-polka/ros-jazzy-polka_0.6.1-2noble_amd64.deb
+Size: 605302
+SHA256: 219ffd98ea57d2b1c88b224b359b4bb2468aaff7c796df9866cf691625962ce9
+SHA1: 6cdfee805c9e1516e45dbe6ffcf90b3cb909cb46
+MD5sum: c70e930881af22357de95e54516e50a1
+Description: ROS 2 composable node for multi-LiDAR fusion with optional CUDA acceleration.
+ Packages from https://polka-ros.github.io include the CUDA merge engine and fall back to CPU without a GPU; ROS build farm packages are CPU-only.
+
+Package: ros-kilted-polka
+Version: 0.6.1-2noble
+Architecture: amd64
+Maintainer: "Panav Arpit Raaj" <praajarpit@gmail.com>
+Installed-Size: 3154
+Depends: libc6 (>= 2.38), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcl-common1.14 (>= 1.14.0+dfsg), libstdc++6 (>= 13.1), libeigen3-dev, libpcl-dev, ros-kilted-diagnostic-msgs, ros-kilted-laser-geometry, ros-kilted-nav-msgs, ros-kilted-pcl-conversions, ros-kilted-point-cloud-transport, ros-kilted-rcl-interfaces, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-rclpy, ros-kilted-sensor-msgs, ros-kilted-tf2-eigen, ros-kilted-tf2-geometry-msgs, ros-kilted-tf2-ros
+Homepage: https://github.com/Pana1v/polka
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-kilted-polka/ros-kilted-polka_0.6.1-2noble_amd64.deb
+Size: 604520
+SHA256: e6d4ac89017cf86087ea3aa17bca692c68228cac5974e3d4cb1c87ae8689bcfc
+SHA1: 288ffa7cc4f6def61eecd2acc83ee2abf6469790
+MD5sum: cf41d35c9f77140ecf329e330014c818
+Description: ROS 2 composable node for multi-LiDAR fusion with optional CUDA acceleration.
+ Packages from https://polka-ros.github.io include the CUDA merge engine and fall back to CPU without a GPU; ROS build farm packages are CPU-only.
+

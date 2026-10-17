@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: polka-ros
+Label: polka
+Codename: noble
+Date: Sat, 17 Oct 2026 14:59:16 UTC
+Architectures: amd64
+Components: main
+Description: polka ROS 2 packages (CUDA-enabled)
+MD5Sum:
+ 688aebb156c57d1f03fc448015d3d83f 2402 main/binary-amd64/Packages
+ a6627ee1b3a4b24203cc50f184cb8a4e 880 main/binary-amd64/Packages.gz
+ 9fe0b53c92ea2514a7167684255554a0 116 main/binary-amd64/Release
+SHA1:
+ f0e6bd94491e310af49904574e8ba35a7f86005e 2402 main/binary-amd64/Packages
+ 533265e4db0d5a7f5281408c1e7cd19a89834177 880 main/binary-amd64/Packages.gz
+ 4e7d7003a927647904c4d45614858462d6235252 116 main/binary-amd64/Release
+SHA256:
+ 65feef09c0bdf640b18490f06947ac73afe52daa0f829d81c0ec26ee634fc70a 2402 main/binary-amd64/Packages
+ 2ada318683d49e4dfdb50052dbcd14aaf03105e46f5f3d296d99ddde4cd8a890 880 main/binary-amd64/Packages.gz
+ 03344c191c2be7fd4d226c9b9ddb27fab3ceca3fcae6beb8c46f0a5b0dbe5d49 116 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSW8ap1Xk2KfAj7NPRhsRjmGgF6TQUCatONRAAKCRBhsRjmGgF6
+TbVfAP9sTEMyL9lOkZrxd48vYcUt14rGxx9/Fzq9QtZQwSQKtQEAlZVbbA6LqgD6
+gfYczoCTDcA0nEQpNkE/HqQTtIyXkgI=
+=4zg+
+-----END PGP SIGNATURE-----
