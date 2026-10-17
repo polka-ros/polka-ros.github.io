@@ -73,7 +73,7 @@ graph LR
 ## Internal stages
 
 ```mermaid
-graph LR
+graph TB
     subgraph Sources
         PC[PointCloud2<br/>/front/points]
         LS[LaserScan<br/>/rear/scan]
@@ -113,13 +113,6 @@ polka/
 │   ├── detailed_params.yaml          # Annotated reference for every parameter
 │   └── example_articulated_imu.yaml  # Per-source IMU deskewing example
 ├── launch/polka.launch.py            # Launch file
-├── doc/                              # docs and assets
-│   ├── CONFIGURATION.md
-│   ├── DESKEW.md                     # how much skew, and what deskew fixes
-│   ├── PERFORMANCE.md
-│   ├── PIPELINE.md
-│   ├── images/                       # logo and figures
-│   └── media/                        # demo GIFs (gifs/) + generator toolchain
 ├── include/polka/
 │   ├── polka_node.hpp                # Main composable node (orchestration only)
 │   ├── types.hpp                     # Config structs and type definitions
@@ -160,3 +153,5 @@ polka/
     ├── merge_engine/                 # Merge engine implementations
     └── output/                       # OutputPipeline and ScanBuilder implementations
 ```
+
+This site, its figures and the demo GIF toolchain live in [polka-ros/polka-ros.github.io](https://github.com/polka-ros/polka-ros.github.io).
