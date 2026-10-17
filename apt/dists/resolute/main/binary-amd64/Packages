@@ -1,0 +1,17 @@
+Package: ros-lyrical-polka
+Version: 0.6.1-2resolute
+Architecture: amd64
+Maintainer: "Panav Arpit Raaj" <praajarpit@gmail.com>
+Installed-Size: 3453
+Depends: libc6 (>= 2.43), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcl-common1.15 (>= 1.15.1+dfsg), libstdc++6 (>= 14), libeigen3-dev, libpcl-dev, ros-lyrical-diagnostic-msgs, ros-lyrical-laser-geometry, ros-lyrical-nav-msgs, ros-lyrical-pcl-conversions, ros-lyrical-point-cloud-transport, ros-lyrical-rcl-interfaces, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-rclpy, ros-lyrical-sensor-msgs, ros-lyrical-tf2-eigen, ros-lyrical-tf2-geometry-msgs, ros-lyrical-tf2-ros
+Homepage: https://github.com/Pana1v/polka
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-lyrical-polka/ros-lyrical-polka_0.6.1-2resolute_amd64.deb
+Size: 649228
+SHA256: 986723bfb71e308b68a82754d216edde7238d0e1b1ea7da2ad3179f32f2fc8fe
+SHA1: 4ea8b6d84d07f40ad12c1240a10d18415f176eb1
+MD5sum: f914bb172733382a5d495aa688d170d7
+Description: ROS 2 composable node for multi-LiDAR fusion with optional CUDA acceleration.
+ Packages from https://polka-ros.github.io include the CUDA merge engine and fall back to CPU without a GPU; ROS build farm packages are CPU-only.
+
