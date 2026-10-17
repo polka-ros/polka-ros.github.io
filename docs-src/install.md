@@ -2,9 +2,18 @@
 
 ## From apt
 
-CUDA-enabled packages for Humble, Jazzy, Kilted, Lyrical and Rolling (amd64). They need only
-the NVIDIA driver, not the CUDA toolkit, and run on the CPU on machines without a usable GPU.
-Lyrical needs driver 580 or newer, the rest 525 or newer.
+CUDA-enabled packages (amd64). They need only the NVIDIA driver, not the CUDA toolkit, and run
+on the CPU on machines without a usable GPU.
+
+| Distro | Ubuntu | NVIDIA driver |
+|--------|--------|---------------|
+| Humble | 22.04 | 525+ |
+| Jazzy, Kilted | 24.04 | 525+ |
+| Lyrical | 26.04 | 580+ |
+| Rolling | 26.04 | 580+ |
+
+Rolling's 26.04 binaries are only in ROS's `ros2-testing` repository for now, so Rolling needs
+that apt source (the official `ros:rolling` images already use it).
 
 ```bash
 sudo curl -fsSL https://polka-ros.github.io/polka.gpg -o /usr/share/keyrings/polka.gpg
