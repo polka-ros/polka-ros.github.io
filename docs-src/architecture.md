@@ -173,15 +173,12 @@ The host buffers are pinned (`cudaMallocHost`) because `cudaMemcpyAsync` from pa
 
 Then, per source, the host flattens the transform into `d_tf` and launches `fused_transform_filter_kernel` with 256 threads per block, one thread per point:
 
-1. Range test on the squared distance.
+1. Range test on the squared distance, if the range filter is enabled.
 2. If it passes, the angular cross-product test and the box test.
 3. If all pass, transform with the 3x4 matrix and keep the point with its time.
 4. Reserve an output slot and write.
 
 The per-source filters run on the point before the transform, in the sensor frame, the same as on the CPU path. Filter parameters go to the kernel by value as a `GpuFilterParams` struct, with angular bounds precomputed on the host as cosine and sine pairs.
-
-!!! note
-    The CUDA kernel always applies the per-source range bounds. It does not check `range.enabled`. With the defaults (`range.min` 0.1 m, `range.max` 100 m), a source with its range filter disabled is still clipped to 0.1 to 100 m on the GPU, but not on the CPU.
 
 ### Slot reservation
 
