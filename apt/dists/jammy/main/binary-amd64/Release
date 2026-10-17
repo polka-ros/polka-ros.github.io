@@ -1,0 +1,5 @@
+Component: main
+Origin: polka-ros
+Label: polka
+Architecture: amd64
+Description: polka ROS 2 packages (CUDA-enabled)

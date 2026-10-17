@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: polka-ros
+Label: polka
+Codename: jammy
+Date: Sat, 17 Oct 2026 14:08:29 UTC
+Architectures: amd64
+Components: main
+Description: polka ROS 2 packages (CUDA-enabled)
+MD5Sum:
+ e8098c5b4e13aa1026c8689418a4ed78 1207 main/binary-amd64/Packages
+ 303267405edfc7b90879b4deb9d508b0 690 main/binary-amd64/Packages.gz
+ 9fe0b53c92ea2514a7167684255554a0 116 main/binary-amd64/Release
+SHA1:
+ 3ec797465b7ea96aaf2d1689a29548ea5ed4b692 1207 main/binary-amd64/Packages
+ c05b210e23015e4ff8a93dc73a68879ff665a520 690 main/binary-amd64/Packages.gz
+ 4e7d7003a927647904c4d45614858462d6235252 116 main/binary-amd64/Release
+SHA256:
+ d2d2753f112805942fac1cc43404b855ad23b4bdab7429f4966ae3bfe96502c9 1207 main/binary-amd64/Packages
+ 25cb6e3c68b52a2c913e363be650c944c47b167d69aada00ae9afaf19310e434 690 main/binary-amd64/Packages.gz
+ 03344c191c2be7fd4d226c9b9ddb27fab3ceca3fcae6beb8c46f0a5b0dbe5d49 116 main/binary-amd64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSW8ap1Xk2KfAj7NPRhsRjmGgF6TQUCatOBXQAKCRBhsRjmGgF6
+TWlcAP9LbJ+kx3yuoUageQHmhB18zy2dSvbAMNqcIl/sW+WlYgD+PLqsJepApAA8
+5eXpsWE6yZvuTQLV1Jaa0XHou9WsMQE=
+=yHwt
+-----END PGP SIGNATURE-----
