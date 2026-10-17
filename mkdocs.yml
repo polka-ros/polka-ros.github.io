@@ -2,7 +2,9 @@ site_name: polka
 site_author: Panav Arpit Raaj
 site_url: https://polka-ros.github.io/
 repo_url: https://github.com/Pana1v/polka
-edit_uri: edit/humble/doc/
+repo_name: Pana1v/polka
+edit_uri: https://github.com/polka-ros/polka-ros.github.io/edit/main/docs-src/
+docs_dir: docs-src
 site_description: "Multi-LiDAR fusion node for ROS 2, with optional CUDA acceleration"
 
 theme:
@@ -22,6 +24,7 @@ theme:
   favicon: images/polka.png
   features:
     - content.code.copy
+    - content.action.edit
     - navigation.top
     - toc.follow
 
@@ -47,7 +50,9 @@ extra:
 
 nav:
   - Home: index.md
+  - Install: install.md
   - Configuration: configuration.md
   - Pipeline: pipeline.md
+  - Architecture: architecture.md
   - Deskew: deskew.md
   - Performance: performance.md

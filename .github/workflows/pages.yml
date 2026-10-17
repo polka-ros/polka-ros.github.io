@@ -4,9 +4,6 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  # Picks up doc changes merged into polka without needing a cross-repo token.
-  schedule:
-    - cron: '0 3 * * *'
 
 permissions:
   contents: read
@@ -22,17 +19,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/checkout@v4
-        with:
-          repository: Pana1v/polka
-          ref: humble
-          path: polka-src
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       # MkDocs 2.0 drops the plugin and theme system Material depends on.
       - run: pip install 'mkdocs<2' 'mkdocs-material<10'
-      - run: python scripts/import_docs.py polka-src docs
       - run: mkdocs build --strict -d site
       - name: Add apt repository
         run: |
