@@ -15,3 +15,20 @@ MD5sum: f914bb172733382a5d495aa688d170d7
 Description: ROS 2 composable node for multi-LiDAR fusion with optional CUDA acceleration.
  Packages from https://polka-ros.github.io include the CUDA merge engine and fall back to CPU without a GPU; ROS build farm packages are CPU-only.
 
+Package: ros-rolling-polka
+Version: 0.6.1-2resolute
+Architecture: amd64
+Maintainer: "Panav Arpit Raaj" <praajarpit@gmail.com>
+Installed-Size: 3453
+Depends: libc6 (>= 2.43), libconsole-bridge1.0 (>= 1.0.1+dfsg2), libgcc-s1 (>= 3.3.1), libpcl-common1.15 (>= 1.15.1+dfsg), libstdc++6 (>= 14), libeigen3-dev, libpcl-dev, ros-rolling-diagnostic-msgs, ros-rolling-laser-geometry, ros-rolling-nav-msgs, ros-rolling-pcl-conversions, ros-rolling-point-cloud-transport, ros-rolling-rcl-interfaces, ros-rolling-rclcpp, ros-rolling-rclcpp-components, ros-rolling-rclpy, ros-rolling-sensor-msgs, ros-rolling-tf2-eigen, ros-rolling-tf2-geometry-msgs, ros-rolling-tf2-ros
+Homepage: https://github.com/Pana1v/polka
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-rolling-polka/ros-rolling-polka_0.6.1-2resolute_amd64.deb
+Size: 649632
+SHA256: 20128bd573f2abd0e2a459a89ba9172b08a6e388a81332d531951a54013b0b27
+SHA1: 35b1f43d784db68c088a290bc61c1b1d338d8645
+MD5sum: 382ddf74fe53600edfd9fa8e59393872
+Description: ROS 2 composable node for multi-LiDAR fusion with optional CUDA acceleration.
+ Packages from https://polka-ros.github.io include the CUDA merge engine and fall back to CPU without a GPU; ROS build farm packages are CPU-only.
+

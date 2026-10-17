@@ -1,19 +1,19 @@
 Origin: polka-ros
 Label: polka
 Codename: resolute
-Date: Sat, 17 Oct 2026 15:21:31 UTC
+Date: Sat, 17 Oct 2026 16:59:36 UTC
 Architectures: amd64
 Components: main
 Description: polka ROS 2 packages (CUDA-enabled)
 MD5Sum:
- f6ccd4c612e6a4e3726537a4740b5e4c 1229 main/binary-amd64/Packages
- a6c5fbadef43e9e3c1862d62d35d553f 690 main/binary-amd64/Packages.gz
+ 75803663d541801cd6ecebae42b184fd 2458 main/binary-amd64/Packages
+ b4508e7e873c1569590ee1fc2f5f8167 882 main/binary-amd64/Packages.gz
  9fe0b53c92ea2514a7167684255554a0 116 main/binary-amd64/Release
 SHA1:
- cc03096477b2686c33f66c6261891f109383cb46 1229 main/binary-amd64/Packages
- 4aceaf51234e65a1d35882bef1fd232f009601f4 690 main/binary-amd64/Packages.gz
+ d24d9113422944565993a0c5d81612c8a0770908 2458 main/binary-amd64/Packages
+ fe5d2a3d85cb8bd11d536493271a1b4817fe2785 882 main/binary-amd64/Packages.gz
  4e7d7003a927647904c4d45614858462d6235252 116 main/binary-amd64/Release
 SHA256:
- 0d97952b2814a3f74aef5ea13007b121ee6ce0f1e59b27687a415568716bda4c 1229 main/binary-amd64/Packages
- 5a76bbb81ad35e517320d943a5fe93a0d265b19f343071797acb225ca5c03ae2 690 main/binary-amd64/Packages.gz
+ 7ed5f13c606388c4d6523609adc697a232acb83001674f9de63a215f45a88cdb 2458 main/binary-amd64/Packages
+ ab6093b04a4237bd5ea92a9a026d075fe8cba03a0786d2ee8d9681a8fdf32ece 882 main/binary-amd64/Packages.gz
  03344c191c2be7fd4d226c9b9ddb27fab3ceca3fcae6beb8c46f0a5b0dbe5d49 116 main/binary-amd64/Release
