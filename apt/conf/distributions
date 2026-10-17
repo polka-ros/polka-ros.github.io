@@ -1,0 +1,24 @@
+Origin: polka-ros
+Label: polka
+Codename: jammy
+Architectures: amd64
+Components: main
+Description: polka ROS 2 packages (CUDA-enabled)
+SignWith: 96F1AA755E4D8A7C08FB34F461B118E61A017A4D
+
+Origin: polka-ros
+Label: polka
+Codename: noble
+Architectures: amd64
+Components: main
+Description: polka ROS 2 packages (CUDA-enabled)
+SignWith: 96F1AA755E4D8A7C08FB34F461B118E61A017A4D
+
+Origin: polka-ros
+Label: polka
+Codename: resolute
+Architectures: amd64
+Components: main
+Description: polka ROS 2 packages (CUDA-enabled)
+SignWith: 96F1AA755E4D8A7C08FB34F461B118E61A017A4D
+
