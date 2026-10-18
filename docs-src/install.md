@@ -17,9 +17,9 @@ that apt source (the official `ros:rolling` images already use it).
 
 ```bash
 sudo curl -fsSL https://polka-ros.github.io/polka.gpg -o /usr/share/keyrings/polka.gpg
-echo "deb [signed-by=/usr/share/keyrings/polka.gpg] https://polka-ros.github.io $(. /etc/os-release && echo $VERSION_CODENAME) main" \
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/polka.gpg] https://polka-ros.github.io $(. /etc/os-release && echo $VERSION_CODENAME) main" \
   | sudo tee /etc/apt/sources.list.d/polka.list
-sudo apt update && sudo apt install ros-$ROS_DISTRO-polka
+sudo apt update && sudo apt install ros-${ROS_DISTRO:?source your ROS setup.bash first}-polka
 ```
 
 ## From source
